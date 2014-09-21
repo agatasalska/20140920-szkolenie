@@ -95,3 +95,17 @@ h2 {
     margin: 0;
     line-height: 34px;
 }
+
+.section2 {
+    background-color: #55B388;
+    text-align: center;
+    color: #fff;
+    height: 500px;
+    padding: 50px 0px 50px 0px;
+}
+
+.portfolio_img {
+    width: 800px;
+    margin-top: 50px;
+}
+
