@@ -15,7 +15,7 @@ header {
 .logo {
     text-decoration: none;
     font-size: 40px;
-    color: #55B388;
+    color: #87deb4;
 }
 
 nav{
@@ -29,7 +29,9 @@ nav ul {
 }
 
 nav ul li{
-    display: inline-block;
+    display: inline-block;/*sprawia, że nawet elementy listy ustawiają się obok siebie w bloki;
+    z automatu powinny też zniknąć kropki z <ul> , ale jeżeli nie znikną, to wtedy
+    list-style: none;*/
     padding: 10px;
 }
 
