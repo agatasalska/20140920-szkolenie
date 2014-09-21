@@ -96,7 +96,7 @@ h2 {
     line-height: 34px;
 }
 
-.section2 {
+.green_section {
     background-color: #55B388;
     text-align: center;
     color: #fff;
@@ -107,5 +107,22 @@ h2 {
 .portfolio_img {
     width: 800px;
     margin-top: 50px;
+}
+
+.white_section {
+    text-align: center;
+    margin-top: 200px;
+    color: #505965;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+.green_text {
+    color: #55B388;
+}
+
+.movie {
+    margin-top: 50px;
+    width: 800px;
 }
 
