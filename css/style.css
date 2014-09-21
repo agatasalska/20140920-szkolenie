@@ -126,3 +126,54 @@ h2 {
     width: 800px;
 }
 
+footer {
+    background-color: #2D3035; 
+    height: 200px;
+    padding: 50px 0;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    /*Alt+Shift+F ustawia hierarchię tekstu*/
+}
+
+.stopka {
+    display: block;
+    padding-top: 50px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #C5D2E5;
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #55B388;
+    text-decoration: none;
+    color: white;
+}
+
+footer .logo {
+    display: block;
+    margin-top: 20px;
+}
+
+.circle:after {
+    content: "<";
+    display: block;
+    font-size: 50px;
+    transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    margin-top: 7px;
+}
+
+.circle:hover {
+    background-color: #87deb4;
+}
+
+/*http://lea.verou.me/css3patterns/*/
+
